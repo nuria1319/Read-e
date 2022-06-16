@@ -1,0 +1,30 @@
+.carousel-body {
+    position: relative;
+    padding-top: 20px;
+}
+
+
+@media (min-width: 768px) {
+
+    .ramp {
+        position: absolute;
+        height: 100%;
+        width: 370px;
+        transform: skewX(-12deg);
+        bottom: 0;
+        right: -70px;
+        transform-origin: right;
+        background-color: #e5e7eb;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .ramp {
+        width: 420px;
+        transform: skewX(-12deg);
+        bottom: 0;
+        right: -70px;
+    }
+}

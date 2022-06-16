@@ -1,0 +1,39 @@
+.card-item-bi {
+    display: flex;
+    width: 200px;
+    height: 490px;
+    padding: 20px;
+    box-shadow: 0 1px 1px #282c34;
+}
+
+.image-bi {
+    height: 200px;
+    width: 158px;
+}
+
+.card-text-content-bi {
+    margin: 3px 0;
+}
+
+.title-bi {
+    font-weight: bold;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+
+.author-bi {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+
+.removeButton {
+    width: 100%;
+    border: 1px solid;
+    padding: 3px;
+}

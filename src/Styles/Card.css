@@ -1,0 +1,38 @@
+.card-item {
+    display: flex;
+    width: 200px;
+    height: 430px;
+    padding: 20px;
+    box-shadow: 0 1px 1px #282c34;
+}
+
+.image {
+    height: 200px;
+    width: 158px;
+}
+
+.card-text-content {
+    margin: 3px 0;
+}
+
+.title {
+    font-weight: bold;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+
+.author {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+
+.saveButton {
+    border: 1px solid;
+    padding: 3px;
+}

@@ -1,0 +1,12 @@
+.button {
+    font-size: x-small;
+    padding: 0 3px;
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: medium;
+    }
+}

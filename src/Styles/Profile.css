@@ -1,0 +1,38 @@
+.profile-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #A983E0;
+    color: #fff;
+}
+
+.profile-img{
+    margin: 5px;
+    border: 1px solid;
+}
+
+.profile-name-text {
+    margin: 20px 5px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-shadow: 0 1px 1px #000000;
+}
+
+@media (min-width: 768px) {
+
+    .profile-name-text {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .profile-name-text {
+        font-size: xx-large;
+    }
+}

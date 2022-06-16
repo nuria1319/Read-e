@@ -1,0 +1,62 @@
+.banner-novedades {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+
+    background-color: #A983E0;
+    color: #fff;
+}
+
+.titulo-novedades {
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-shadow: 0 1px 2px #000000;
+}
+
+.card-container-nov {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container-content-nov {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 500px;
+    border: 1px solid;
+}
+
+@media (min-width: 768px) {
+
+    .banner-novedades {
+        margin: 40px 0;
+    }
+    .titulo-novedades {
+        font-size: xx-large;
+    }
+
+    .card-container-content-nov {
+        width: 600px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .banner-novedades {
+        margin: 50px 0;
+    }
+    .titulo-novedades {
+        font-size: xxx-large;
+    }
+
+    .card-container-content-nov {
+        width: 900px;
+    }
+}

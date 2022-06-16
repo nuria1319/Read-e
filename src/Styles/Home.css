@@ -1,0 +1,129 @@
+.home-page {
+    background-color: #e5e7eb;
+}
+
+.betw-car-body {
+    width: 100%;
+    height: 20px;
+    background-color: #A983E0;
+}
+
+.search-body {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    padding-bottom: 12px;
+    box-shadow: 0px 5px 4px #000;
+    background-color: #A983E0;
+}
+
+.search-title {
+    font-size: x-large;
+}
+
+.search-content {
+    width: 50px;
+}
+
+.search-input {
+    display: flex;
+    margin-left: 30px;
+}
+
+.button-search {
+    display: flex;
+}
+
+.button-style {
+    padding: 4px;
+    background-color: #fff;
+}
+
+.combobox-style {
+
+    background-color: #fff;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    box-shadow: 0 0 3px;
+}
+
+.space-card {
+    height: 200px;
+}
+
+
+.content-search-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+
+    color: #fff;
+}
+
+.search-title{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-shadow: 0 0 1px #000000;
+}
+
+.content-search-button{
+    margin-left: 6px;
+}
+
+.search-button {
+    background-color: #fff;
+    border: 1px solid;
+    padding: 5px 15px;
+}
+
+
+@media (min-width: 768px) {
+
+    .card-container-content{
+        width: 600px;
+    }
+
+    .search-title{
+        font-size: xx-large;
+    }
+
+    .content-search-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-button {
+        background-color: #fff;
+        border: 1px solid;
+        padding: 5px 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .card-container-content{
+        width: 900px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+
+    .search-title{
+        font-size: xxx-large;
+    }
+}
